@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "testlibrary/Button";
 
 function App() {
   return (
@@ -17,6 +18,13 @@ function App() {
         >
           Learn React
         </a>
+        <Button
+          onClick={() => {
+            console.log("yay");
+          }}
+        >
+          Im a Button
+        </Button>
       </header>
     </div>
   );
