@@ -22,7 +22,8 @@ const config = {
     /* ... */
   },
   devOptions: {
-    /* ... */
+    open: "none",
+    port: 0,
   },
   buildOptions: {
     /* ... */

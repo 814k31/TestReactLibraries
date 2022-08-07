@@ -21,7 +21,7 @@
     "rootDir": "src",
     "noEmit": false,
     "declarationDir": "build",
-    "emitDeclarationOnly": true
+    "types": ["jest", "@testing-library/jest-dom"]
   },
   "include": ["src", "typings.d.ts"],
   "exclude": ["node_modules"]
