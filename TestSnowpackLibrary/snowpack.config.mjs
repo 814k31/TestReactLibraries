@@ -4,6 +4,7 @@ const config = {
     src: { url: "/" },
   },
   plugins: [
+    "@snowpack/plugin-babel",
     "@snowpack/plugin-react-refresh",
     "@snowpack/plugin-dotenv",
     "@snowpack/plugin-typescript",

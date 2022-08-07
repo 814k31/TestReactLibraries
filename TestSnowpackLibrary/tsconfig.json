@@ -18,7 +18,10 @@
     "isolatedModules": true,
     "noFallthroughCasesInSwitch": true,
     "declaration": true,
-    "rootDir": "src"
+    "rootDir": "src",
+    "noEmit": false,
+    "declarationDir": "build",
+    "emitDeclarationOnly": true
   },
   "include": ["src", "typings.d.ts"],
   "exclude": ["node_modules"]
