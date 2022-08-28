@@ -2,10 +2,9 @@
   "name": "testsnowpacklibrary",
   "version": "0.0.1",
   "description": "",
-  "source": "src/index.ts",
-  "main": "index.js",
-  "module": "build/module.js",
-  "types": "build/types.d.ts",
+  "source": "src/index.js",
+  "main": "build/index.js",
+  "module": "build/index.js",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

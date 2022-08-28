@@ -1,6 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Button } from "testlibrary/Button";
+import { Button as ParcelButton } from "testparcellibrary";
+import { Button as RollupButton } from "testrolluplibrary";
+// import { Button as SnowpackButton } from "testsnowpacklibrary";
+// import { Button as WebpackButton } from "testwebpacklibrary";
 
 function App() {
   return (
@@ -18,13 +21,37 @@ function App() {
         >
           Learn React
         </a>
-        <Button
+        <ParcelButton
           onClick={() => {
-            console.log("yay");
+            console.log("parcel");
           }}
         >
-          Im a Button
-        </Button>
+          I am a parcel built button
+        </ParcelButton>
+
+        <RollupButton
+          onClick={() => {
+            console.log("rollup");
+          }}
+        >
+          I am a rollup built button
+        </RollupButton>
+
+        {/*<SnowpackButton
+          onClick={() => {
+            console.log("snowpack");
+          }}
+        >
+          I am a snowpack built button
+        </SnowpackButton>
+
+        {/*<WebpackButton
+          onClick={() => {
+            console.log("webpack");
+          }}
+        >
+          I am a webpack built button
+        </WebpackButton>*/}
       </header>
     </div>
   );
